@@ -22,5 +22,5 @@ W celu personalizacji generowanego kalendarza należy:
 * Zmienić addToFile("Dom Pet",f2,rok) na addToFile("Makulatura",f2,rok)
 * f0, f1, f2... to odpowienie zmienne do plików, które nie mogą się powtarzać, a f0 to plik generowanego kalendarza
 <!-- end of the list -->
-<br /><br />
+<br />
 Po zaimportowaniu kalendarza należy pamiętać o ustawieniu powiadomień.
