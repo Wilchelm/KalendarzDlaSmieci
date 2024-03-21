@@ -7,7 +7,7 @@ Oprócz samego programu w języku Python dołączony jest także skrypt .bat poz
 * Dom_Smieci.txt - pusty plik do wypełnienia datami dla odpadów zmieszanych
 # Windows
 W celu uruchomienia programu należy zainstalować aplikację Python ze sklepy Microsoft Store.<br />
-# Instukcja dotycząca ploków tekstowych
+# Instukcja dotycząca plików tekstowych
 * Każda linijka pliku tekstowego to miesiąc, czyli 5 linijka to maj.
 * Liczby oddzielamy spacjami.
 * Np. 2 18 30
@@ -21,5 +21,6 @@ W celu personalizacji generowanego kalendarza należy:
 * Zmienić f2 = open("Dom_Pet.txt", "r") np. na f2 = open("Makulatura.txt", "r")
 * Zmienić addToFile("Dom Pet",f2,rok) na addToFile("Makulatura",f2,rok)
 * f0, f1, f2... to odpowienie zmienne do plików, które nie mogą się powtarzać, a f0 to plik generowanego kalendarza
+<!-- end of the list -->
 <br /><br />
 Po zaimportowaniu kalendarza należy pamiętać o ustawieniu powiadomień.
