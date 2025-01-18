@@ -1,9 +1,7 @@
 import datetime
 
 def czyPrzestepny(rok):
-  if rok % 400 == 0 and rok % 100 == 0:
-    return True 
-  elif rok % 4 == 0 and rok % 100 != 0:
+  if rok%4 and rok%100 != 0 or rok%400 == 0:
     return True
   else:
     return False
